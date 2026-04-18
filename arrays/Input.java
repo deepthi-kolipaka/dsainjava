@@ -7,9 +7,8 @@ public class Input{
         //array of non primitives
         String []s=new String[n];
         for(int i=0;i<s.length;i++){
-            System.out.println("Enter elements "+i);
+            System.out.println("Enter elements" );
             s[i]=in.nextLine();
-            System.out.println(s[i]);
         }
         System.out.println(Arrays.toString(s));
     }
