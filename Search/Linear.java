@@ -16,5 +16,6 @@ public class Linear {
                 System.out.println("Element found at :"+i+"th index");
             }
         }
+        System.out.println("Element not found!");
     }
 }
